@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="fond" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="636.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="screen1" layoutX="413.0" layoutY="100.0" prefHeight="66.0" prefWidth="178.0" />
+      <TextField fx:id="screen" layoutX="38.0" layoutY="100.0" prefHeight="66.0" prefWidth="171.0" />
+      <TextField fx:id="screen11" layoutX="169.0" layoutY="28.0" prefHeight="66.0" prefWidth="282.0" />
+      <ImageView fitHeight="197.0" fitWidth="150.0" layoutX="235.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@leaf.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="191.0" fitWidth="217.0" layoutX="15.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rock.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="191.0" fitWidth="171.0" layoutX="432.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ciseaux.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="3.0" layoutY="196.0" mnemonicParsing="false" onAction="#clique" opacity="0.0" prefHeight="198.0" prefWidth="200.0" text="1" />
+      <Button layoutX="210.0" layoutY="195.0" mnemonicParsing="false" onAction="#clique" opacity="0.0" prefHeight="198.0" prefWidth="200.0" text="2" />
+      <Button layoutX="417.0" layoutY="190.0" mnemonicParsing="false" onAction="#clique" opacity="0.0" prefHeight="198.0" prefWidth="200.0" text="3" />
+   </children>
+</AnchorPane>
